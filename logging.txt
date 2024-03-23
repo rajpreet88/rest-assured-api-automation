@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 25.14578,
+        "lng": 99.55787
+    },
+    "accuracy": 15,
+    "name": "Freemont Valley",
+    "phone_number": "(+1) 789 654 1230",
+    "address": "Palo Alto, Nevada, California",
+    "types": [
+        "theatrical",
+        "3rd-person"
+    ],
+    "website": "https://www.tesla.com",
+    "language": "EN-US"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Mar 2024 07:47:03 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f8291e0fb7c4299ade7e094fb3428062",
+    "scope": "APP",
+    "reference": "1be9f45cda70148c945982fceea396221be9f45cda70148c945982fceea39622",
+    "id": "1be9f45cda70148c945982fceea39622"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f8291e0fb7c4299ade7e094fb3428062
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f8291e0fb7c4299ade7e094fb3428062
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 20 Mar 2024 07:47:03 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 264
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "25.14578",
+        "longitude": "99.55787"
+    },
+    "accuracy": "15",
+    "name": "Freemont Valley",
+    "phone_number": "(+1) 789 654 1230",
+    "address": "Palo Alto, Nevada, California",
+    "types": "theatrical,3rd-person",
+    "website": "https://www.tesla.com",
+    "language": "EN-US"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f8291e0fb7c4299ade7e094fb3428062"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Mar 2024 07:47:04 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
